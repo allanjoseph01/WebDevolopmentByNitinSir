@@ -1,0 +1,113 @@
+# Sample guest lecture data
+guest_lectures = [
+    {"id": 1, "title": "Lecture 1", "month": "Oct", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 2, "title": "Lecture 2", "month": "Oct", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 3, "title": "Lecture 3", "month": "Oct", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 4, "title": "Lecture 4", "month": "Oct", "domain": "Tech", "company": "Google", "department": "CSE"},
+    {"id": 5, "title": "Lecture 5", "month": "Oct", "domain": "Business", "company": "Accenture", "department": "CS"},
+    {"id": 6, "title": "Lecture 6", "month": "Nov", "domain": "Tech", "company": "Facebook", "department": "CS"},
+    {"id": 7, "title": "Lecture 7", "month": "Nov", "domain": "Business", "company": "Microsoft", "department": "Finance"},
+    {"id": 8, "title": "Lecture 8", "month": "Nov", "domain": "Tech", "company": "Google", "department": "IT"},
+    {"id": 9, "title": "Lecture 9", "month": "Dec", "domain": "Business", "company": "Facebook", "department": "CS"},
+    {"id": 10, "title": "Lecture 10", "month": "Dec", "domain": "Tech", "company": "Microsoft", "department": "ECE"},
+    {"id": 11, "title": "Lecture 11", "month": "Dec", "domain": "Business", "company": "Accenture", "department": "Finance"},
+    {"id": 12, "title": "Lecture 12", "month": "Jan", "domain": "Tech", "company": "Facebook", "department": "CS"},
+    {"id": 13, "title": "Lecture 13", "month": "Jan", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 14, "title": "Lecture 14", "month": "Feb", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 15, "title": "Lecture 15", "month": "Feb", "domain": "Business", "company": "Accenture", "department": "CS"},
+    {"id": 16, "title": "Lecture 16", "month": "Feb", "domain": "Tech", "company": "Google", "department": "IT"},
+    {"id": 17, "title": "Lecture 17", "month": "Mar", "domain": "Business", "company": "Facebook", "department": "Finance"},
+    {"id": 18, "title": "Lecture 18", "month": "Mar", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 19, "title": "Lecture 19", "month": "Mar", "domain": "Business", "company": "Accenture", "department": "ECE"},
+    {"id": 20, "title": "Lecture 20", "month": "Apr", "domain": "Tech", "company": "Google", "department": "IT"},
+    {"id": 21, "title": "Lecture 21", "month": "Apr", "domain": "Business", "company": "Microsoft", "department": "Finance"},
+    {"id": 22, "title": "Lecture 22", "month": "Apr", "domain": "Tech", "company": "Facebook", "department": "CS"},
+    {"id": 23, "title": "Lecture 23", "month": "May", "domain": "Business", "company": "Accenture", "department": "IT"},
+    {"id": 24, "title": "Lecture 24", "month": "May", "domain": "Tech", "company": "Google", "department": "ECE"},
+    {"id": 25, "title": "Lecture 25", "month": "May", "domain": "Business", "company": "Microsoft", "department": "Finance"},
+    {"id": 26, "title": "Lecture 26", "month": "Jun", "domain": "Tech", "company": "Facebook", "department": "CS"},
+    {"id": 27, "title": "Lecture 27", "month": "Jun", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 28, "title": "Lecture 28", "month": "Jun", "domain": "Tech", "company": "Microsoft", "department": "IT"},
+    {"id": 29, "title": "Lecture 29", "month": "Jul", "domain": "Business", "company": "Accenture", "department": "CS"},
+    {"id": 30, "title": "Lecture 30", "month": "Jul", "domain": "Tech", "company": "Facebook", "department": "ECE"},
+    {"id": 31, "title": "Lecture 31", "month": "Jul", "domain": "Business", "company": "Google", "department": "IT"},
+    {"id": 32, "title": "Lecture 32", "month": "Aug", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 33, "title": "Lecture 33", "month": "Aug", "domain": "Business", "company": "Facebook", "department": "Finance"},
+    {"id": 34, "title": "Lecture 34", "month": "Aug", "domain": "Tech", "company": "Google", "department": "ECE"},
+    {"id": 35, "title": "Lecture 35", "month": "Sep", "domain": "Business", "company": "Microsoft", "department": "CS"},
+    {"id": 36, "title": "Lecture 36", "month": "Sep", "domain": "Tech", "company": "Facebook", "department": "IT"},
+    {"id": 37, "title": "Lecture 37", "month": "Sep", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 38, "title": "Lecture 38", "month": "Oct", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 39, "title": "Lecture 39", "month": "Oct", "domain": "Business", "company": "Facebook", "department": "IT"},
+    {"id": 40, "title": "Lecture 40", "month": "Oct", "domain": "Tech", "company": "Google", "department": "ECE"},
+    {"id": 41, "title": "Lecture 41", "month": "Nov", "domain": "Business", "company": "Microsoft", "department": "CS"},
+    {"id": 42, "title": "Lecture 42", "month": "Nov", "domain": "Tech", "company": "Facebook", "department": "IT"},
+    {"id": 43, "title": "Lecture 43", "month": "Nov", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 44, "title": "Lecture 44", "month": "Dec", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+    {"id": 45, "title": "Lecture 45", "month": "Dec", "domain": "Business", "company": "Facebook", "department": "Finance"},
+    {"id": 46, "title": "Lecture 46", "month": "Dec", "domain": "Tech", "company": "Google", "department": "IT"},
+    {"id": 47, "title": "Lecture 47", "month": "Jan", "domain": "Business", "company": "Microsoft", "department": "CS"},
+    {"id": 48, "title": "Lecture 48", "month": "Jan", "domain": "Tech", "company": "Facebook", "department": "ECE"},
+    {"id": 49, "title": "Lecture 49", "month": "Jan", "domain": "Business", "company": "Google", "department": "Finance"},
+    {"id": 50, "title": "Lecture 50", "month": "Feb", "domain": "Tech", "company": "Microsoft", "department": "CS"},
+]
+
+
+# Initialize hash maps for each filter criterion
+index_by_month = {}
+index_by_domain = {}
+index_by_company = {}
+index_by_department = {}
+
+# Populate the hash maps
+for lecture in guest_lectures:
+    month = lecture["month"]
+    domain = lecture["domain"]
+    company = lecture["company"]
+    department = lecture["department"]
+    
+    if month not in index_by_month:
+        index_by_month[month] = set()
+    index_by_month[month].add(lecture["id"])
+    
+    if domain not in index_by_domain:
+        index_by_domain[domain] = set()
+    index_by_domain[domain].add(lecture["id"])
+    
+    if company not in index_by_company:
+        index_by_company[company] = set()
+    index_by_company[company].add(lecture["id"])
+    
+    if department not in index_by_department:
+        index_by_department[department] = set()
+    index_by_department[department].add(lecture["id"])
+
+# Example filtering process
+def filter_lectures(selected_filters):
+    # Start with the set of all lecture IDs
+    matching_lectures = set(lecture["id"] for lecture in guest_lectures)
+    
+    # Apply each filter
+    if "month" in selected_filters:
+        matching_lectures &= index_by_month.get(selected_filters["month"], set())
+    if "domain" in selected_filters:
+        matching_lectures &= index_by_domain.get(selected_filters["domain"], set())
+    if "company" in selected_filters:
+        matching_lectures &= index_by_company.get(selected_filters["company"], set())
+    if "department" in selected_filters:
+        matching_lectures &= index_by_department.get(selected_filters["department"], set())
+    
+    # Return the filtered lectures
+    return [lecture for lecture in guest_lectures if lecture["id"] in matching_lectures]
+
+# User input example
+selected_filters = {
+    "month": "Nov",
+    "domain": "Tech",
+    "department": "IT"
+}
+
+result = filter_lectures(selected_filters)
+for i in result:
+    print(i)
+
